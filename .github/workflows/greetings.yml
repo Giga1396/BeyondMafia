@@ -10,4 +10,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Thanks for filing your first BeyondMafia issue!'
-        pr-message: 'Congratulations on your first BeyondMafia pull request !'
+        pr-message: 'Congratulations on your first BeyondMafia pull request!'
