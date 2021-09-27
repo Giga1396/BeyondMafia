@@ -1,0 +1,22 @@
+{
+    "alignments": {
+        "town" : {
+            "unique": true,
+            "size" : 5,
+            "roles" : ["villager", "villager", "villager", "cop", "doctor"]
+
+        },
+
+        "mafia" : {
+            "unique": true,
+            "size" : 2,
+            "roles" : ["mafia", "mafia"]
+        },
+
+        "third" : {
+            "unique": true,
+            "size" : 0,
+            "roles" : []
+        }
+    }
+}
