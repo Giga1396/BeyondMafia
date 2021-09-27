@@ -1,0 +1,33 @@
+#signHeader {
+    width: 85%;
+    background-position: center  !important;
+    background-repeat: no-repeat   !important;
+    margin: 0 auto;
+
+}
+
+#createAccountForm{
+    background-color:#efefef;
+}
+
+#createAccount{
+    background-color:#2e2e2e;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;    
+}
+
+#logo{
+    margin-top:20px;
+}
+
+#headerText{
+    color: white;
+    font-weight: 450;
+    margin-top: -10px;
+}
+img#logoLight {
+    width: 300px;
+    length: 300px;
+}
