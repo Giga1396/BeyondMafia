@@ -39,7 +39,7 @@ $ pipenv install
 ```console
 $ python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
-6. Create a file called `.env` in `bm-backend` and add your secret key:
+6. Create a file named `.env` in `bm-backend` and add your secret key:
 ```bash
 SECRET_KEY = '50-character-string-you-just-generated'
 ```
@@ -57,11 +57,11 @@ $ git pull
 ```console
 $ pipenv shell
 ```
-2. If the Pipfile has been modified, update your dependencies.
+3. If the Pipfile has been modified, update your dependencies.
 ```console
 $ pipenv install
 ```
-3. Run the server.
+4. Run the server.
 ```console
 $ python manage.py runserver
 ```
