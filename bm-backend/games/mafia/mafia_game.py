@@ -4,7 +4,7 @@ import numpy as np
 class MafiaGame(GameInterface):
 
 
-    def __init__(self, players : set[int], player_type : type, options=None) -> None:
+    def __init__(self, players : set[int], player_type : type, options = None) -> None:
         self.players = {i : player_type() for i in players}
 
         self.initialize_players(options['alignments'])

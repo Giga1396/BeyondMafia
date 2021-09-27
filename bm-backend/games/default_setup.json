@@ -3,14 +3,14 @@
         "town" : {
             "unique": true,
             "size" : 5,
-            "roles" : ["villager", "villager", "villager", "cop", "doctor"]
+            "roles" : ["Villager", "Villager", "Villager", "Cop", "Doctor"]
 
         },
 
         "mafia" : {
             "unique": true,
             "size" : 2,
-            "roles" : ["mafia", "mafia"]
+            "roles" : ["Mafia", "Mafia"]
         },
 
         "third" : {

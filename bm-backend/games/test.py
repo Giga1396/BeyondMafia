@@ -11,7 +11,8 @@ def test():
         data = json.load(f)
 
     game = MafiaGame({1, 2, 3, 4, 5, 6, 7}, MafiaPlayer, data)
-    print(game)
+    for player in game.players.values():
+        print(player)
 
 
 
