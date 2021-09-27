@@ -1,0 +1,58 @@
+.filepond--root .filepond--drop-label{
+    height: 50px;
+    width: 50%;
+    background-color: #d22e2d;
+    color: white;
+    margin: auto;
+}
+.filepond--panel-root {
+    background-color: transparent;
+    border: black;
+}
+.uploadButton{
+    padding-top: 10px;
+}
+
+.filepond--item {
+    width: 184px;
+    margin: auto!important;
+}
+.filepond--file-info{
+    display:none;
+
+}
+
+.filepond--drop-label label {
+    font-weight: 600; 
+}
+.stockAvatar{
+    background-color: gray;
+    height: 184px;
+    width: 184px;
+    margin: auto;
+}
+.avatarPrompt{
+    overflow-wrap: break-word;
+    font-size:10px;
+    opacity: 0.5;
+    margin-top:-10px;
+    text-align:center;
+}
+.uploadButton{
+}
+.uploadWrapper{
+    display:inline-block;
+    max-width:100%;
+}
+.stockAvatar{
+    
+}
+.upload h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:grey;
+}
