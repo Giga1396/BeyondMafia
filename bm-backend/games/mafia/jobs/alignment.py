@@ -1,5 +1,5 @@
 from enum import Enum
 class Alignment(Enum):
-    TOWN = 0,
-    MAFIA = 1,
-    THIRD = 2
+    Town = 0,
+    Mafia = 1,
+    Third = 2

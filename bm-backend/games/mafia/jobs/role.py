@@ -12,7 +12,8 @@ class Role(ABC):
 
 
     def hit(self):
-        self.alive = False
+        if not self.protected:
+            self.alive = False
 
     def protect(self):
         self.protected = True

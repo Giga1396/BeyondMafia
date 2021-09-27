@@ -1,13 +1,14 @@
 from interfaces.player_interface import PlayerInterface
-from mafia.roles import *
+from mafia.jobs.roles import *
 
 class MafiaPlayer(PlayerInterface):
 
-    def __init__(self):
+    def __init__(self, name):
+        super().__init__(name)
         self.role = None
 
     def set_role(self, role):
         self.role = globals()[role]()
 
     def __repr__(self) -> str:
-        return str(self.role)
+        return f"{self.name}: {self.role}"

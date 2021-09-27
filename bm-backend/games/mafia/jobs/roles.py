@@ -1,10 +1,10 @@
-from mafia.role import Role
-from mafia.alignment import Alignment
+from mafia.jobs.role import Role
+from mafia.jobs.alignment import Alignment
 
 class Villager(Role):
     def __init__(self) -> None:
         super().__init__()
-        self.alignment = Alignment.TOWN
+        self.alignment = Alignment.Town
 
 class Doctor(Villager):
     def __init__(self) -> None:
@@ -19,9 +19,9 @@ class Cop(Villager):
 class BaseMafia(Role):
     def __init__(self) -> None:
         super().__init__()
-        self.alignment = Alignment.MAFIA
+        self.alignment = Alignment.Mafia
 
 class Mafia(BaseMafia):
     def __init__(self) -> None:
         super().__init__()
-        self.night_actions.append("Kill") #TODO add functionality here
+        self.night_actions.append("Hit") #TODO add functionality here
