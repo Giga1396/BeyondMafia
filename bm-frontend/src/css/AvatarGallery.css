@@ -1,0 +1,12 @@
+.Gallery {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+    height: 60px;
+    width: 30px;
+    color: #424242;
+}
