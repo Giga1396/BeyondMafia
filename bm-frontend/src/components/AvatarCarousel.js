@@ -32,7 +32,7 @@ export default class AvatarCarousel extends Component {
             showThumbnails = { false }
             items = {
                 images.map(function(image) {
-                    return { original: image.default, originalHeight: 100 };
+                    return { original: image.default, originalHeight: 184 };
                 })
             }
             onSlide = { this.onSlide }
