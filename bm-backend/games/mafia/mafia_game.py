@@ -6,7 +6,7 @@ class MafiaGame(GameInterface):
 
     def __init__(self, players : set[int], player_type : type, options = None) -> None:
         self.players = {i : player_type(name) for i, name in players}
-
+        self.is_day = options['day_start']
         self.initialize_players(options['alignments'])
 
 

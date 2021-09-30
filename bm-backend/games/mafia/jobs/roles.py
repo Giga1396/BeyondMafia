@@ -24,4 +24,4 @@ class BaseMafia(Role):
 class Mafia(BaseMafia):
     def __init__(self) -> None:
         super().__init__()
-        self.night_actions.append("Hit") #TODO add functionality here
+        self.night_actions.append("Hit") #TODO add functionality here      

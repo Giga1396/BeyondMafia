@@ -1,4 +1,3 @@
-from typing import ClassVar
 from mafia.actions.action import Action
 
 class Save(Action):
@@ -18,6 +17,11 @@ class Hit(Action):
     def apply(self):
         for target in self.targets:
             target.role.hit()
+
+class Exile(Action):     
+    def apply(self):
+        for target in self.targets:
+            target.role.exile()
 
 class Investigate(Action):
 

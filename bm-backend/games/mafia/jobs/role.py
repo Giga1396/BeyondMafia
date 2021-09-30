@@ -6,14 +6,18 @@ class Role(ABC):
         self.items = []
         self.day_actions = []
         self.night_actions = []
+        self.meetings = ["TownMeeting"]
         self.reports = []
         self.protected = False
         self.alignment = None
-
+        self.vote_weight = 1
 
     def hit(self):
         if not self.protected:
             self.alive = False
+
+    def exile(self):
+        self.alive = False
 
     def protect(self):
         self.protected = True
