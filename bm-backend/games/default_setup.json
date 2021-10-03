@@ -1,4 +1,5 @@
 {
+    "day_start": false,
     "alignments": {
         "town" : {
             "unique": true,
