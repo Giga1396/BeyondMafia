@@ -11,8 +11,9 @@ django-allauth = "*"
 django-cors-headers = "*"
 python-decouple = "*"
 numpy = "*"
+channels = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3.9"

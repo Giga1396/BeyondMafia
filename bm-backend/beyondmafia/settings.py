@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount', 
     'rest_auth.registration', 
     'corsheaders', 
+    'channels',
 
     # Local Apps
     'users', 
@@ -91,6 +92,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'beyondmafia.wsgi.application'
+ASGI_APPLICATION = 'beyondmafia.routing.application'
 
 
 # Database
@@ -170,4 +172,13 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',    
     ],
+}
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
 }
