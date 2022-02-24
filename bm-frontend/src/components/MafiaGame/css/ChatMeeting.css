@@ -1,0 +1,49 @@
+.votingList{
+    border: 1px solid;
+    border-color:black;
+}
+.playerVote{
+    padding-top:5px;
+    padding-left:10px;
+    color:grey;
+}
+.playerVote:hover{
+    color:#C52213
+}
+.votingImage{
+    border: 1px solid;
+    color:black;
+}
+.playerVote span{
+    font-size:20px!important; 
+}
+.voteToggle{
+    opacity:0.33;
+    padding-top:10px;
+}
+.voteToggle span{
+    font-weight:bold;
+    position:absolute;
+    padding-left:10px;
+    font-size:20px;
+}
+.voteToggle:hover{
+    color: #C52213!important;
+    opacity: 100%;
+
+}
+.meeting{
+    width:25%;
+    padding-left:10px;
+}
+.meetingMember{
+    padding-top: 5px;
+}
+.memberName{
+    font-weight:bold;
+}
+.meeting h1{
+    color: #C52213;
+    text-align:center;
+    vertical-align:middle;
+}

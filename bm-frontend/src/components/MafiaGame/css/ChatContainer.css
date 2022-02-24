@@ -1,0 +1,48 @@
+.chatImage {
+  display: inline;
+  height: 25px;
+  width: 25px;
+  border: 1px solid;
+  vertical-align: middle;
+}
+.chatContainer{
+  width: 100%;
+  height: 650px;
+  background: #EBEBEB;
+  overflow-y: auto;
+}
+.chatInput{
+  width: 100vw;
+}
+.chatInput form{
+  padding-top: 5px;
+  margin: 0 auto
+}
+.chatInput input{
+  height:25px;
+  width:35%;
+   margin: 0 auto;
+}
+.playerChat{
+  display: table;
+  padding-left:50px;
+  padding-top: 15px;
+}
+.playerChat body{
+  display: inline;
+  text-align: center;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none;
+}
+
+.playerChat body strong{
+  display: inline;
+  font-weight: bold;
+  text-align: center;
+}
+.playerChat body strong:hover{
+  background-color:yellow;
+  border-radius: 25px
+}
